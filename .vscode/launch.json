@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Self-Learning",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Self-Learning",
+            // "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "90a7e3f8-d047-4e03-8592-7ee3feb5f264",
+            "schemaUpdateMode": "Synchronize"
+        },
+
+
+        // {
+        //     "name": "snapshotInitialize: Microsoft production cloud",
+        //     "type": "al",
+        //     "request": "snapshotInitialize",
+        //     "environmentType": "Production",
+        //     "environmentName": "production",
+        //     "breakOnNext": "WebClient",
+        //     "executionContext": "DebugAndProfile"
+        // }        
+    ]
+}

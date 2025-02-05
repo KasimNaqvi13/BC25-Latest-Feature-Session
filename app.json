@@ -1,0 +1,42 @@
+{
+    "id": "0169f02d-1b51-4ac3-af24-dc998e3dad31",
+    "name": "BC Latest Feature PPT",
+    "publisher": "Naqvi",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "https://media.licdn.com/dms/image/D4D03AQFfl4mpxSQEsA/profile-displayphoto-shrink_400_400/0/1708526968447?e=2147483647&v=beta&t=yqbs2X-g6UfYLp82a7llgoxN7nnuPSH4dOfLua6oKMo",
+    "logo": "C:/Users/naqvi.a.CETASTECH/Pictures/1708526968447.jfif",
+    "dependencies": [
+        {
+            "id": "16C26BDA-5F9C-4A77-A17E-4835F06062C0",
+            "name": "_Exclude_Connectivity Apps",
+            "publisher": "Microsoft",
+            "version": "24.5.23489.24156"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "24.5.23489.23968",
+    "idRanges": [
+        {
+            "from": 50101,
+            "to": 50200
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false,
+        "applyToDevExtension": false
+    },
+    "runtime": "13.0",
+    "propagateDependencies": true,
+    "features": [
+        "NoImplicitWith",
+        "NoPromotedActionProperties"
+    ]
+}
