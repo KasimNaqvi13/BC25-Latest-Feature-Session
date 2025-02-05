@@ -6,5 +6,5 @@
 # launch.json
 # !app.json
 rad.json
-# *.app
+*.app
 *.g.xlf
