@@ -1,4 +1,4 @@
-pageextension 50101 ItemExt extends "Item List"
+pageextension 50101 ItemCardExt extends "Item Card"
 {
 
     actions
@@ -59,5 +59,14 @@ pageextension 50101 ItemExt extends "Item List"
             }
         }
     }
+
+    trigger OnAfterGetRecord()
+    begin
+        Clear(ID);
+        ID := Rec.Picture.MediaId;
+    end;
+
+    var
+        ID: Guid;
 }
 
