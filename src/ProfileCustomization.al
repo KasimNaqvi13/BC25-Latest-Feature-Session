@@ -16,3 +16,23 @@ pagecustomization CustomCustomization customizes "Item Card"
         modify(Description) { Visible = true; }
     }
 }
+
+profileextension BusinessMangerExt extends BusinessManager
+{
+    // Customizations = MyCustomization, CustomCustomization;
+    Customizations = MyCustomization;
+    Caption = 'Cetas manager';
+}
+pagecustomization MyCustomization customizes "Customer List"
+{
+    actions
+    {
+        moveafter(Orders; "Blanket Orders")
+
+        modify(NewSalesBlanketOrder)
+        {
+            Visible = false;
+        }
+
+    }
+}
