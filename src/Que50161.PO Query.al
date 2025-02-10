@@ -1,6 +1,6 @@
 query 50161 "PO Query"
 {
-    Caption = 'ZY Purchase Order Query';
+    Caption = 'PO Query';
     OrderBy = Descending(Buy_from_Vendor_No_);
     QueryCategory = 'Vendor List', 'Purchase Order List';
 
