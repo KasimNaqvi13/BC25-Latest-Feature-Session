@@ -30,14 +30,15 @@
     "resourceExposurePolicy": {
         "allowDebugging": true,
         "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": false,
+        "includeSourceInSymbolFile": true,
         "applyToDevExtension": false
     },
     "runtime": "14.2",
     "propagateDependencies": true,
     "features": [
         "NoImplicitWith",
-        "NoPromotedActionProperties"
+        "NoPromotedActionProperties",
+        "UseLegacyAnalyzerStrategy"
     ],
 
     "resourceFolders": ["resource"],
