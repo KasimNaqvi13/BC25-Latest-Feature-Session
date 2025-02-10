@@ -22,7 +22,7 @@ page 50151 "Resources in extensions"
                 var
                     Text001: Text;
                 begin
-                    Text001 := NavApp.GetResourceAsText('ResourceText.txt', TextEncoding::UTF8);
+                    Text001 := NavApp.GetResourceAsText('Data/ResourceText.txt', TextEncoding::UTF8);
                     Message(Text001);
                 end;
             }
