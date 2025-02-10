@@ -37,7 +37,8 @@
     "propagateDependencies": true,
     "features": [
         "NoImplicitWith",
-        "NoPromotedActionProperties"
+        "NoPromotedActionProperties",
+        "UseLegacyAnalyzerStrategy"
     ],
 
     "resourceFolders": ["resource"],
