@@ -38,5 +38,9 @@
     "features": [
         "NoImplicitWith",
         "NoPromotedActionProperties"
+    ],
+
+    "resourceFolders": [ 
+    
     ]
 }
