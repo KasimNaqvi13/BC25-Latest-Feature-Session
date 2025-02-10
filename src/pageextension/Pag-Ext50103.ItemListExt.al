@@ -1,6 +1,5 @@
-pageextension 50101 ItemCardExt extends "Item Card"
+pageextension 50103 "Item List Ext" extends "Item List"
 {
-
     actions
     {
         addafter(Functions)
@@ -83,4 +82,3 @@ pageextension 50101 ItemCardExt extends "Item Card"
         }
     }
 }
-
