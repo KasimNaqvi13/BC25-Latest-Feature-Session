@@ -40,7 +40,5 @@
         "NoPromotedActionProperties"
     ],
 
-    "resourceFolders": [ 
-    
-    ]
+    "resourceFolders": ["resource"]
 }
