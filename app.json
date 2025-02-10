@@ -30,7 +30,7 @@
     "resourceExposurePolicy": {
         "allowDebugging": true,
         "allowDownloadingSource": false,
-        "includeSourceInSymbolFile": false,
+        "includeSourceInSymbolFile": true,
         "applyToDevExtension": false
     },
     "runtime": "14.2",
