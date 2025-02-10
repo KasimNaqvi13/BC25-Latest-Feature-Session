@@ -29,7 +29,7 @@
     ],
     "resourceExposurePolicy": {
         "allowDebugging": true,
-        "allowDownloadingSource": false,
+        "allowDownloadingSource": true,
         "includeSourceInSymbolFile": false,
         "applyToDevExtension": false
     },
@@ -42,7 +42,8 @@
 
     "resourceFolders": ["resource"],
     "source": {
-        "repositoryUrl": "https://github.com/KasimNaqvi13/BC25-Latest-Feature-Session.git"
+        "repositoryUrl": "https://github.com/KasimNaqvi13/BC25-Latest-Feature-Session.git",
+        "commit": "025caec1f55dc1dbe7adf5b4c56dd07827c6e342"
         
     }
 }
