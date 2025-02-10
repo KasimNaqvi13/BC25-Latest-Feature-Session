@@ -40,5 +40,9 @@
         "NoPromotedActionProperties"
     ],
 
-    "resourceFolders": ["resource"]
+    "resourceFolders": ["resource"],
+    "source": {
+        "repositoryUrl": "https://github.com/KasimNaqvi13/BC25-Latest-Feature-Session.git"
+        
+    }
 }

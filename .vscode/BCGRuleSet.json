@@ -6,6 +6,11 @@
             "id": "AS0051",  "_comments" :"AppSourceCop Error AS0051" ,
             "action": "Warning",
             "justification": "Convert From Error to warning"
+        },
+        {
+            "id" : "AA0248" ,"_comments" :"This - key word error",
+            "action" : "Warning",
+            "justification" : "Convert From Error to warning"
         }
     ]
 }
