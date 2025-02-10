@@ -33,7 +33,7 @@
         "includeSourceInSymbolFile": false,
         "applyToDevExtension": false
     },
-    "runtime": "13.0",
+    "runtime": "14.0",
     "propagateDependencies": true,
     "features": [
         "NoImplicitWith",
